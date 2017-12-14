@@ -31,5 +31,5 @@ PRODUCT_MANUFACTURER := Wingtech
 
 # Build fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT="Lenovo/Kraft-wt88047/Kraft-wt88047:5.0.2/LRX22G/Kraft-wt88047_S061_160727:user/release-keys" \
-    PRIVATE_BUILD_DESC="Kraft-wt88047-user 5.0.2 LRX22G Kraft-wt88047_S061_160727 release-keys"
+    BUILD_FINGERPRINT="Xiaomi/wt88047/wt88047:5.1.1/LMY47V/V8.1.3.0.LHJMIDL:user/release-keys" \
+    PRIVATE_BUILD_DESC="wt88047-user 5.1.1 LMY47V V8.1.3.0.LHJMIDL release-keys"
