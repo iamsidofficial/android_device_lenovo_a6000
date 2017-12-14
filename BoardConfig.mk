@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include device/lenovo/a6000/board/*.mk
+include device/wingtech/wt88047/board/*.mk
 
 # inherit from proprietary files
--include vendor/lenovo/a6000/BoardConfigVendor.mk
+-include vendor/wingtech/wt88047/BoardConfigVendor.mk
