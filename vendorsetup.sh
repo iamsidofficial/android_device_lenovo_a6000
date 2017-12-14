@@ -1,2 +1,2 @@
-add_lunch_combo omni_a6000-userdebug
-add_lunch_combo omni_a6000-eng
+add_lunch_combo omni_wt88047-userdebug
+add_lunch_combo omni_wt88047-eng
