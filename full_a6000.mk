@@ -22,14 +22,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, device/lenovo/a6000/device.mk)
 
 # Device identifier. This must come after all inclusions
-TARGET_VENDOR := Lenovo
-PRODUCT_DEVICE := a6000
-PRODUCT_NAME := full_a6000
-PRODUCT_BRAND := Lenovo
-PRODUCT_MODEL := A6000
-PRODUCT_MANUFACTURER := Lenovo
+TARGET_VENDOR := Wingtech
+PRODUCT_DEVICE := wt88047
+PRODUCT_NAME := full_wt88047
+PRODUCT_BRAND := Xiaomi
+PRODUCT_MODEL := Redmi 2
+PRODUCT_MANUFACTURER := Wingtech
 
 # Build fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT="Lenovo/Kraft-A6000/Kraft-A6000:5.0.2/LRX22G/Kraft-A6000_S061_160727:user/release-keys" \
-    PRIVATE_BUILD_DESC="Kraft-A6000-user 5.0.2 LRX22G Kraft-A6000_S061_160727 release-keys"
+    BUILD_FINGERPRINT="Lenovo/Kraft-wt88047/Kraft-wt88047:5.0.2/LRX22G/Kraft-wt88047_S061_160727:user/release-keys" \
+    PRIVATE_BUILD_DESC="Kraft-wt88047-user 5.0.2 LRX22G Kraft-wt88047_S061_160727 release-keys"
