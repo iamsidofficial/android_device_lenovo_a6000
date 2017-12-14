@@ -64,8 +64,8 @@
     },
     {
         "remote":       "omnirom",
-        "repository":   "android_kernel_lenovo_msm8916",
-        "target_path":  "kernel/lenovo/a6000",
+        "repository":   "android_kernel_wingtech_msm8916",
+        "target_path":  "kernel/wingtech/wt88047",
         "revision":     "android-7.1"
     }
 ]
