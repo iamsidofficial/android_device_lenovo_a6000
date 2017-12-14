@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit from a6000 device
-$(call inherit-product, device/lenovo/a6000/device.mk)
+$(call inherit-product, device/wingtech/wt88047/device.mk)
 
 # Device identifier. This must come after all inclusions
 TARGET_VENDOR := Wingtech
