@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/lenovo/a6000/full_a6000.mk)
+$(call inherit-product, device/wingtech/wt88047/full_wt88047.mk)
 
 # Inherit some common OmniROm stuff.
 
@@ -25,9 +25,9 @@ TARGET_BOOTANIMATION_SIZE := 640x362
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := Kraft-T,a6000,K30-T,A6000,Kraft-W,Kraft-C,k30t,msm8916,Kraft-A6000,wt86518
+TARGET_OTA_ASSERT_DEVICE := Kraft-T,a6000,K30-T,A6000,Kraft-W,Kraft-C,k30t,msm8916,Kraft-A6000,wt86518,wt88047
 
-PRODUCT_NAME := omni_a6000
-BOARD_VENDOR := Lenovo
+PRODUCT_NAME := omni_wt88047
+BOARD_VENDOR := Wingtech
 
-PRODUCT_GMS_CLIENTID_BASE := android-lenovo
+PRODUCT_GMS_CLIENTID_BASE := android-wingtech
